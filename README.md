@@ -1,8 +1,21 @@
-# React + Vite
+# InvoiceApp - Desafio Técnico
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción
 
-Currently, two official plugins are available:
+Esta app fue diseñada para el desafío técnico de ingreso de SML. Consiste en la creación de un frontend para la realización de facturación de productos a un cliente (Invoices).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Las tecnologías que se utilizaron son: 
+
+- React 18
+- Axios
+- TailwingCSS 3
+
+Esta app se conecta a un Backend realizado en .Net Core y a una BBDD MariaDB (MySQL).
+
+## Instalación
+
+- Clonar el repositorio desde https://github.com/Jorgedc87/invoiceApp.git
+- Abrir el proyecto y ejecutar `npm install`
+- Crear el archivo de variables de entorno a partir de .env.example
+- Configurar variable de entorno `VITE_BACKEND_URL` con la url del backend, EJ: `http://localhost:5000`
+- Ejecutar el proyecto con `npm run dev`
